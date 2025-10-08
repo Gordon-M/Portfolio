@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Gordon Ma",
-  description: "Short Summary",
+  description:" Hi! I'm a computer science student at UC Irvine who loves turning ideas into interactive applications. I'm passionate about collaboration and am always looking for new opportunities to learn from real-world challenges.",
   icons: {
-    icon: "tab_turtle.png",
+    icon: "turtleicon.png",
   },
-  viewport: "width=device-weidth, inital-scale=1.0",
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({ children }) {

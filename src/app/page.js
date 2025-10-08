@@ -5,9 +5,9 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function Home() {
   return (
-    <main className="p-12 bg-gray-900"> 
+    <main className="p-12 min-h-screen bg-gray-900"> 
       <Header/>
-      <div className="flex flex-wrap justify-center gap-24 pb-10">
+      <div className="flex flex-wrap justify-center gap-28 pb-10">
         <a target="_blank" href="https://www.daplab.education.uci.edu/">
           <ProjectCard 
             imgsrc="daplab_logo.png" 
