@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <main className="p-12 bg-gray-900"> 
       <Header/>
-      <div className="flex flex-wrap justify-center gap-20 pb-10">
+      <div className="flex flex-wrap justify-center gap-24 pb-10">
         <a target="_blank" href="https://www.daplab.education.uci.edu/">
           <ProjectCard 
             imgsrc="daplab_logo.png" 
             altText="daplab" 
             title="Design and Partnership Lab" 
-            description = "Worked in cross-team collaboration "/>
+            description = "Creating educational tools that support student learning"/>
         </a>
 
         <a target="_blank" href="https://github.com/LexTruong/ZotterMeals">
@@ -21,7 +21,7 @@ export default function Home() {
             imgsrc="phone.png" 
             altText="phone" 
             title="ZotterMeals" 
-            description = "Mobile calorie tracking app integrated with UCI dining information with ReactNative, JS, and, Expo"/>
+            description = "Mobile calorie tracking app displaying real-time UCI dining information"/>
         </a>
 
         <a target="_blank" href="https://devpost.com/software/quick-release-pit-stop">
@@ -29,15 +29,15 @@ export default function Home() {
             imgsrc="graph.png" 
             altText="graph" 
             title="Quick Release Pit Stop" 
-            description = "Organized and visualized data through pandas, plot.ly, and seaborn to identify points of interest."/>
+            description = "Data visualization project analyzing automotive performance"/>
         </a>
 
-        <a target="_blank" href="https://devpost.com/software/quick-release-pit-stop">
+        <a target="_blank" href="https://github.com/LexTruong/ucforum">
           <ProjectCard 
-            imgsrc="graph.png" 
-            altText="graph" 
+            imgsrc="forum_website.png" 
+            altText="forum" 
             title="UC Forum" 
-            description = "News site"/>
+            description = "Collaborative news website for posting and commenting"/>
         </a>
       </div>      
       <Footer/>

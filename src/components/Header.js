@@ -4,7 +4,8 @@ export default function Header() {
           <h1 className="text-teal-400 text-left p-6 pt-8 font-bold font-serif text-6xl">Gordon Ma</h1>
           <div className="pl-6 pb-8">
             <p className="text-lg text-white">
-              Blurb Here about stuff
+              Hi! I'm a computer science student at UC Irvine who loves turning ideas into interactive applications.
+              I'm passionate about collaboration and am always looking for new opportunities to learn from real-world challenges.     
             </p>
           </div>
                 <div className="flex flex-row space-x-8 pl-6">
@@ -21,8 +22,8 @@ export default function Header() {
               alt="github"/>
           </a>
         </div>
-        <h1 className="pb-3 text-white font-sans text-center italic font-semi-bold text-3xl">
-          My Work
+        <h1 className="pb-6 text-white font-sans text-center italic font-semi-bold text-3xl">
+          Projects
         </h1>
       </header>
     )

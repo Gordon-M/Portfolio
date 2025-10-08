@@ -15,7 +15,7 @@ export default function ProjectCard({imgsrc, altText, title, description}) {
                   alt={altText}
                 />
             </div>
-              <h1 className="text-white pt-2 text-xl">{title}</h1>
+              <h1 className="text-gray-200 pt-2 text-xl">{title}</h1>
             </div>
             <p className="max-w-md text-base text-white text-wrap">{description}</p>
           </div>
