@@ -5,15 +5,15 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function Home() {
   return (
-    <main className="p-10 pl-16 bg-gray-900"> 
+    <main className="p-12 bg-gray-900"> 
       <Header/>
-      <div className="flex flex-wrap justify-center gap-20 pb-20">
+      <div className="flex flex-wrap justify-center gap-20 pb-10">
         <a target="_blank" href="https://www.daplab.education.uci.edu/">
           <ProjectCard 
             imgsrc="daplab_logo.png" 
-            altText="graph" 
+            altText="daplab" 
             title="Design and Partnership Lab" 
-            description = "Worked in cross-team collaboration"/>
+            description = "Worked in cross-team collaboration "/>
         </a>
 
         <a target="_blank" href="https://github.com/LexTruong/ZotterMeals">
@@ -30,6 +30,14 @@ export default function Home() {
             altText="graph" 
             title="Quick Release Pit Stop" 
             description = "Organized and visualized data through pandas, plot.ly, and seaborn to identify points of interest."/>
+        </a>
+
+        <a target="_blank" href="https://devpost.com/software/quick-release-pit-stop">
+          <ProjectCard 
+            imgsrc="graph.png" 
+            altText="graph" 
+            title="UC Forum" 
+            description = "News site"/>
         </a>
       </div>      
       <Footer/>
