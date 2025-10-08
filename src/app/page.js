@@ -5,10 +5,18 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function Home() {
   return (
-    <main className="p-10 pl-16 bg-gradient-to-b from-teal-400 via-cyan-500 to-blue-600"> 
+    <main className="p-10 pl-16 bg-gray-900"> 
       <Header/>
-      <div className="flex flex-row place-content-center gap-20 pb-20 flex-wrap">
-        <a href="https://github.com/LexTruong/ZotterMeals">
+      <div className="flex flex-wrap justify-center gap-20 pb-20">
+        <a target="_blank" href="https://www.daplab.education.uci.edu/">
+          <ProjectCard 
+            imgsrc="daplab_logo.png" 
+            altText="graph" 
+            title="Design and Partnership Lab" 
+            description = "Worked in cross-team collaboration"/>
+        </a>
+
+        <a target="_blank" href="https://github.com/LexTruong/ZotterMeals">
           <ProjectCard 
             imgsrc="phone.png" 
             altText="phone" 
@@ -16,7 +24,7 @@ export default function Home() {
             description = "Mobile calorie tracking app integrated with UCI dining information with ReactNative, JS, and, Expo"/>
         </a>
 
-        <a href="https://devpost.com/software/quick-release-pit-stop">
+        <a target="_blank" href="https://devpost.com/software/quick-release-pit-stop">
           <ProjectCard 
             imgsrc="graph.png" 
             altText="graph" 
